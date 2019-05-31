@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/student', function () {
     return view('front.index');
+});
+Route::get('/contact', function () {
+    return view('front.contact');
+});
+Route::get('/course', function () {
+    return view('front.course');
 });
