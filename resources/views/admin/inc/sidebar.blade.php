@@ -103,6 +103,12 @@
                     <span>Documentation</span>
                 </a>
             </li>
+            <li>
+                <a href="{{url()}}/manager_student">
+                    <i class="fa fa-book"></i>
+                    <span>Documentation</span>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->

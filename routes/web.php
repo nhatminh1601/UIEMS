@@ -27,4 +27,7 @@ Route::get('/admin', function () {
 Route::get('/calendar', function () {
     return view('admin.calendar');
 });
+Route::get('/manager_student', function () {
+    return view('admin.manager_student');
+});
 
