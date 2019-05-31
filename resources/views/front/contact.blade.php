@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @section('pageTitle', 'Liên Hệ')
+@section('contact', 'active')
 @include('front.inc.head')
 <body>
 	<!-- Page Preloder -->
@@ -102,8 +103,6 @@
 	<!-- Footer section -->
     @include('front.inc.footer')
 	<!-- Footer section end-->
-
-
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @section('pageTitle', 'Home')
+@section('student', 'active')
 @include('front.inc.head')
 <body>
 	<!-- Page Preloder -->

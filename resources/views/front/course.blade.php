@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @section('pageTitle', 'Tra Điểm')
+@section('course', 'active')
 @include('front.inc.head')
 
 <body>
