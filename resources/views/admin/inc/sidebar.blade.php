@@ -104,9 +104,9 @@
                 </a>
             </li>
             <li>
-                <a href="{{url()}}/manager_student">
+                <a href="/">
                     <i class="fa fa-book"></i>
-                    <span>Documentation</span>
+                    <span>Quản lý học sinh</span>
                 </a>
             </li>
         </ul>
