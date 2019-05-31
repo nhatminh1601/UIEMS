@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+@section('pageTitle', 'Home')
+@section('student', 'active')
 @include('front.inc.head')
 <body>
 	<!-- Page Preloder -->
@@ -7,13 +9,9 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- header section -->
-    @include('front.inc.header')
-	<!-- header section end-->
-
-
 	<!-- Header section  -->
     @include('front.inc.nav')
+
 	<!-- Header section end -->
 
 
@@ -25,10 +23,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
-								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">ĐẠI HỌC KHOA HỌC TỰ NHIÊN</div>
+								<h2 class="hs-title">Tuyển Sinh Đại Học 2019</h2>
+								<p class="hs-des">môi trường thân thiện<br> Phát triển bản thân.</p>
 							</div>
 						</div>
 					</div>
@@ -39,10 +36,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-8">
-								<div class="hs-subtitle">Award Winning UNIVERSITY</div>
-								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
-								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<div class="site-btn">GET STARTED</div>
+								<div class="hs-subtitle">ĐẠI HỌC KHOA HỌC TỰ NHIÊN</div>
+								<h2 class="hs-title">Tuyển Sinh Đại Học 2019</h2>
+								<p class="hs-des">môi trường thân thiện<br> Phát triển bản thân.</p>
 							</div>
 						</div>
 					</div>

@@ -5,10 +5,10 @@
             <a href=""><i class="fa fa-shopping-cart"></i></a>
         </div>
         <ul class="main-menu">
-            <li class="active"><a href="{{ url('/home') }}">Home</a></li>
-            <li><a href="{{ url('/course') }}">COURSES</a></li>
+            <li class="@yield('student')"><a href="{{ url('/student') }}">Trang Chủ</a></li>
+            <li class="@yield('course')"><a href="{{ url('/course') }}">Tra Điểm</a></li>
 
-            <li><a href="{{ url('/contact') }}">Contact</a></li>
+            <li class="@yield('contact')"><a href="{{ url('/contact') }}">Liên Hệ</a></li>
         </ul>
     </div>
 </nav>

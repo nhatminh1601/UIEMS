@@ -1,36 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+@section('pageTitle', 'Liên Hệ')
+@section('contact', 'active')
 @include('front.inc.head')
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-
-
-	<!-- header section -->
-	<header class="header-section">
-		<div class="container">
-			<!-- logo -->
-			<a href="index.blade.php" class="site-logo"><img src="img/logo.png" alt=""></a>
-			<div class="nav-switch">
-				<i class="fa fa-bars"></i>
-			</div>
-			<div class="header-info">
-				<div class="hf-item">
-					<i class="fa fa-clock-o"></i>
-					<p><span>Working time:</span>Monday - Friday: 08 AM - 06 PM</p>
-				</div>
-				<div class="hf-item">
-					<i class="fa fa-map-marker"></i>
-					<p><span>Find us:</span>40 Baria Street 133/2, New York City, US</p>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- header section end-->
-
-
 	<!-- Header section  -->
 	@include('front.inc.nav')
 	<!-- Header section end -->
@@ -52,11 +29,11 @@
 			<div class="map-section">
 				<div class="contact-info-warp">
 					<div class="contact-info">
-						<h4>Address</h4>
-						<p>40 Baria Street 133/2, NewYork City, US</p>
+						<h4>Địa Chỉ</h4>
+						<p>Nguyễn Văn Cừ, Phường 5, Thành Phố Hồ Chí Minh</p>
 					</div>
 					<div class="contact-info">
-						<h4>Phone</h4>
+						<h4>Số Điện Thoại</h4>
 						<p>(+88) 111 555 666</p>
 					</div>
 					<div class="contact-info">
@@ -64,8 +41,8 @@
 						<p>infodeercreative@gmail.com</p>
 					</div>
 					<div class="contact-info">
-						<h4>Working time</h4>
-						<p>Monday - Friday: 08 AM - 06 PM</p>
+						<h4>Giờ Làm Việc</h4>
+						<p>Thứ 2 -  Thứ 6: 08 AM - 06 PM</p>
 					</div>
 				</div>
 				<!-- Google map -->
@@ -73,8 +50,8 @@
 			</div>
 			<div class="contact-form spad pb-0">
 				<div class="section-title text-center">
-					<h3>GET IN TOUCH</h3>
-					<p>Contact us for best deals and offer</p>
+					<h3>LIÊN HỆ</h3>
+					<p>Mọi Thắc mắc liên hệ với chúng tôi.</p>
 				</div>
 				<form class="comment-form --contact">
 					<div class="row">
@@ -126,8 +103,6 @@
 	<!-- Footer section -->
     @include('front.inc.footer')
 	<!-- Footer section end-->
-
-
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
