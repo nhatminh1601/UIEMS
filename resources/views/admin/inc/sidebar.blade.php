@@ -17,23 +17,23 @@
             <div class="input-group">
                 <input type="text" name="q" class="form-control" placeholder="Search...">
                 <span class="input-group-btn">
-              <button type="submit" name="search" id="search-btn" class="btn btn-flat">
-                <i class="fa fa-search"></i>
-              </button>
-            </span>
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
             </div>
         </form>
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="active treeview">
+            <li class=" treeview">
                 <a href="#">
                     <i class="fa fa-dashboard"></i>
                     <span>Dashboard</span>
                     <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                 </a>
                 <ul class="treeview-menu">
                     <li class="active">
@@ -51,8 +51,8 @@
                     <i class="fa fa-share"></i>
                     <span>Multilevel</span>
                     <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                 </a>
                 <ul class="treeview-menu">
                     <li>
@@ -63,8 +63,8 @@
                         <a href="#">
                             <i class="fa fa-circle-o"></i> Level One
                             <span class="pull-right-container">
-                    <i class="fa fa-angle-left pull-right"></i>
-                  </span>
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </span>
                         </a>
                         <ul class="treeview-menu">
                             <li>
@@ -75,8 +75,8 @@
                                 <a href="#">
                                     <i class="fa fa-circle-o"></i> Level Two
                                     <span class="pull-right-container">
-                        <i class="fa fa-angle-left pull-right"></i>
-                      </span>
+                                                <i class="fa fa-angle-left pull-right"></i>
+                                            </span>
                                 </a>
                                 <ul class="treeview-menu">
                                     <li>
@@ -97,16 +97,52 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <a href="https://adminlte.io/docs">
+            <li class="active">
+                <a href="{{url('')}}/teachers">
                     <i class="fa fa-book"></i>
-                    <span>Documentation</span>
+                    <span>Quản lý cán bộ</span>
                 </a>
             </li>
             <li>
-                <a href="/">
+                <a href="assignment.html">
                     <i class="fa fa-book"></i>
-                    <span>Quản lý học sinh</span>
+                    <span>Quản lý cán bộ coi thi</span>
+                </a>
+            </li>
+            <li>
+                <a href="room.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý địa điểm thi</span>
+                </a>
+            </li>
+            <li>
+                <a href="calendar.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý lịch thi</span>
+                </a>
+            </li>
+            <li>
+                <a href="exam.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý kỳ thi</span>
+                </a>
+            </li>
+            <li>
+                <a href="transcript.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý điểm</span>
+                </a>
+            </li>
+            <li>
+                <a href="department.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý phòng ban</span>
+                </a>
+            </li>
+            <li>
+                <a href="user.html">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý tài khoản</span>
                 </a>
             </li>
         </ul>

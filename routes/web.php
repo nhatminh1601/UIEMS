@@ -30,4 +30,25 @@ Route::get('/calendar', function () {
 Route::get('/manager_student', function () {
     return view('admin.manager_student');
 });
+Route::get('/teachers', function () {
+    return view('admin.teacher');
+});
+Route::get('/assignment', function () {
+    return view('admin.assignment');
+});
+Route::get('/department', function () {
+    return view('admin.department');
+});
+Route::get('/login', function () {
+    return view('admin.login');
+});
+Route::get('/room', function () {
+    return view('admin.room');
+});
+Route::get('/transcript', function () {
+    return view('admin.transcript');
+});
 
+Route::get('/user', function () {
+    return view('admin.user');
+});

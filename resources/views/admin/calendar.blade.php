@@ -67,7 +67,7 @@
                                             <option value="2">Khối B 2019</option>
                                         </select>
                                         <div class="input-group-addon">
-                                            <a title="Thêm mới" href="exam.html" target="_blank">
+                                            <a title="Thêm mới" href="exam.blade.php" target="_blank">
                                                 <span class="glyphicon glyphicon-plus"></span>
                                             </a>
                                         </div>
