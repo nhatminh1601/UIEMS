@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+@section('pageTitle', 'Tra Điểm')
 @include('front.inc.head')
 
 <body>
