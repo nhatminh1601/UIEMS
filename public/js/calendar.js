@@ -1,10 +1,14 @@
 $(function () {
-
-
+    var localHost = 'http://localhost:8080/'
+    var isInsertCalenda = false,
+    url = {
+        addCalendar: ''
+    }
     Init()
 
     // event 
     $('#btnSave').on('click', () => {
+        isInsertCalenda = true;
         SaveCalendar()
     })
     $(document).on('focus', ':input', function () {
@@ -50,7 +54,7 @@ $(function () {
 
             },
             'click .js-edit': (e, value, row, index) => {
-                alert(row)
+                //isInsertCalenda = false;
                 $('#calendar-popup').modal('toggle');
                 callAnythingOneTimes(updateCalendar(value, row))
             }
@@ -63,7 +67,19 @@ $(function () {
 
 
     function SaveCalendar() {
-        $('#calendar-popup').modal('hide'); //.modal('toggle');
+        var param = {
+            date: getValue('date'),
+            startTime: getValue('startTime'),
+            endTime :getValue('endTime'),
+            shift: getValue('shift'),
+            subject: getValue('subject')
+        }
+        addCalendar(param);
+        //$('#calendar-popup').modal('hide'); //.modal('toggle');
+    }
+
+    function getValue(name){
+        return $('#'+name+'').val();
     }
 
     function deleteCalendar(id) {
@@ -74,7 +90,7 @@ $(function () {
         postApi('/', {})
     }
 
-    function addCalendar(Calendar) {
+    function addCalendar(param) {
         postApi('/', {})
     }
 

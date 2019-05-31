@@ -362,10 +362,10 @@
         $(document).ready(function() {
             $.ajax({
                 type: "GET",
-                dataType: "json",
+                dataType: "application/json",
                 url: "http://localhost:8080/api/teachers"
             }).then(function(data) {
-                console.log(data);
+                console.log("123213");
             });
         });
     </script>

@@ -104,13 +104,13 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="starttime">Bắt đầu</label>
-                                    <input type="text" class="form-control timepicker" id="starttime" required="required" >
+                                    <input type="text" class="form-control timepicker" id="startTime" required="required" >
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="endtime">Kết thúc</label>
-                                    <input type="text" class="form-control timepicker" id="endtime" required="required" >
+                                    <input type="text" class="form-control timepicker" id="endTime" required="required" >
                                 </div>
                             </div>
                         </div>

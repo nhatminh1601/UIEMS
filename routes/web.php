@@ -49,6 +49,3 @@ Route::get('/transcript', function () {
     return view('admin.transcript');
 });
 
-Route::get('/user', function () {
-    return view('admin.user');
-});
