@@ -3,7 +3,7 @@ $(function () {
     var localHost = 'http://localhost:8080/'
     var isInsertCalenda = false,
     url = {
-        addTeacher: '/createTeacher'
+        addTeacher: localHost + '/createTeacher'
     }
     Init()
 
@@ -58,14 +58,14 @@ $(function () {
 
     function SaveTeacher() {
         var param = {
-            date: getValue('date'),
-            startTime: getValue('startTime'),
-            endTime :getValue('endTime'),
-            shift: getValue('shift'),
-            subject: getValue('subject')
+            
         }
         postApi(param)
        // $('#teacher-popup').modal('hide'); //.modal('toggle');
+    }
+
+    function getValue(name){
+        return $('#'+name+'').val();
     }
 
     function deleteTeacher(id) {

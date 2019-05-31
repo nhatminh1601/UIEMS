@@ -45,6 +45,12 @@
                     <span>Quản lý cán bộ</span>
                 </a>
             </li>
+            <li>
+                <a href="/UIEMS/public/transcript">
+                    <i class="fa fa-book"></i>
+                    <span>Quản lý điểm thi</span>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->

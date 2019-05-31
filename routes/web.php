@@ -33,4 +33,6 @@ Route::get('/manager_student', function () {
 Route::get('/teacher', function () {
     return view('admin.teacher');
 });
-
+Route::get('/transcript', function () {
+    return view('admin.transcript');
+});
