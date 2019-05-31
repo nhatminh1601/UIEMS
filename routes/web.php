@@ -30,4 +30,7 @@ Route::get('/calendar', function () {
 Route::get('/manager_student', function () {
     return view('admin.manager_student');
 });
+Route::get('/teacher', function () {
+    return view('admin.teacher');
+});
 

@@ -1,6 +1,10 @@
 $(function () {
 
-
+    var localHost = 'http://localhost:8080/'
+    var isInsertCalenda = false,
+    url = {
+        addTeacher: '/createTeacher'
+    }
     Init()
 
     // event 
@@ -53,7 +57,15 @@ $(function () {
 
 
     function SaveTeacher() {
-        $('#teacher-popup').modal('hide'); //.modal('toggle');
+        var param = {
+            date: getValue('date'),
+            startTime: getValue('startTime'),
+            endTime :getValue('endTime'),
+            shift: getValue('shift'),
+            subject: getValue('subject')
+        }
+        postApi(param)
+       // $('#teacher-popup').modal('hide'); //.modal('toggle');
     }
 
     function deleteTeacher(id) {
