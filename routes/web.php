@@ -20,3 +20,11 @@ Route::get('/contact', function () {
 Route::get('/course', function () {
     return view('front.course');
 });
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+Route::get('/calendar', function () {
+    return view('admin.calendar');
+});
+
